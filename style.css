@@ -1,0 +1,23 @@
+.nav {
+    background-color: slategray;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+.nav-links {
+    display: flex;
+    align-items: flex-end;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: aqua;
+    color: white;
+    box-shadow: 3px 3px black;
+}
+
+li {
+    padding: 10px;
+}
