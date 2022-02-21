@@ -1,23 +1,35 @@
 .nav {
-    background-color: slategray;
+    background-color: rgb(39, 39, 39);
     color: white;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    padding: 0px 10px;
 }
 
 .nav-links {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
     display: flex;
-    align-items: flex-end;
-    list-style: none;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+a {
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
 }
 
 .btn {
     background-color: aqua;
     color: white;
     box-shadow: 3px 3px black;
+    margin: 0px 10px;
 }
 
-li {
-    padding: 10px;
-}
